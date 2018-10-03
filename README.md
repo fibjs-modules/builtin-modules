@@ -12,7 +12,7 @@
 ## Usage
 
 ```javascript
-const builtinModules = require('builtin-modules');
+const builtinModules = require('@fibjs/builtin-modules');
 
 console.log(builtinModules);
 //=> ['assert', 'buffer', ...]
