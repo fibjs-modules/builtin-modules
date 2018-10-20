@@ -1,6 +1,6 @@
 {
   "name": "@fibjs/builtin-modules",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "builtin-modules of fibjs",
   "main": "./lib/index.js",
   "scripts": {
