@@ -1,7 +1,7 @@
-const builtInModules = require('../../')
+import builtInModules from '../builtin-modules'
 
 export = function getBuiltInModuleHash () {
-    const hash = {}
+    const hash = {} as Record<string, string[]>
     builtInModules.forEach(name => hash[name] = require(name))
     return hash
 }
